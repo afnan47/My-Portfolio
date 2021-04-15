@@ -19,7 +19,7 @@ body {
 }
 .certificate .card-wrapper{
 	display:grid;
-	grid-template-columns: repeat(1, 1fr);
+	grid-template-columns: repeat(3, 1fr);
 	grid-gap: 3rem;
 }
 .certificate .card-wrapper .card img{
@@ -171,6 +171,18 @@ button:active {
 }
 
 @media (min-width: 320px) and (max-width: 992px) {
+  .certificate .card-wrapper{
+    display:grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 3rem;
+  }
+  
+  .certificate {
+    height: 2000px;
+    margin-top: 500px;
+  }
+  
+
   h1,
   h4 {
     font-size: 5rem;
